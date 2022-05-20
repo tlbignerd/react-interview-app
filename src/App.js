@@ -41,9 +41,9 @@ class App extends React.Component {
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <p>1: {printArrays(1)}</p>
-          <p>1: {printArrays(2)}</p>
-          <p>1: {printArrays(3)}</p>
-          <p>1: {printArrays(4)}</p>
+          <p>2: {printArrays(2)}</p>
+          <p>3: {printArrays(3)}</p>
+          <p>4: {printArrays(4)}</p>
         </header>
       </div>
     );
