@@ -3,7 +3,13 @@ import './App.css';
 import React from 'react';
 
 /// Have this output the value for each item in the array in the following loops.
-const printArrays = (arrayType) {
+
+/**
+ * Concatenate an array into a string using different methods.
+ * @param {number} arrayType is the type of array iteration to take place. 
+ * @returns String concatenating the array into values with a space in between
+ */
+function printArrays(arrayType) {
   const arr = ["A", "B", "C"];
 
   let returnVal = "";
@@ -14,11 +20,11 @@ const printArrays = (arrayType) {
         returnVal += `${arr[i]} `;
       break;
     case 2:
-      for (item in arr)
+      for (const item in arr)
         returnVal += `${item} `
       break;
     case 3:
-      for (item of arr)
+      for (const item of arr)
         returnVal += `${item} `
       break;
     case 4:
