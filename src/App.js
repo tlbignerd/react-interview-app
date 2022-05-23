@@ -32,7 +32,7 @@ function printArrays(arrayType) {
         returnVal += `${item} `
       });
       break;
-    case 5:
+    default:
       returnVal = arr.join(" ");
       break;
   }
