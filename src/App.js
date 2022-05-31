@@ -14,9 +14,6 @@ class App extends React.Component {
           <Suspense fallback={<div>Loading arrays...</div>}>
             <Arrays />
           </Suspense>
-          <Suspense fallback={<div>Loading trees...</div>}>
-            <Trees />
-          </Suspense>
         </header>
       </div>
     );
